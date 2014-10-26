@@ -1,4 +1,5 @@
-## These functions calculates the inverse of a matrix but first it checks to see if the inverse has already been calculated. If so, it gets the inverse from the cache and skips the computation. Otherwise, it calculates the inverse of the data and sets the value of the inverse in the cache.
+## These functions calculates the inverse of a matrix but first, it is checked if the inverse has already been calculated. 
+## If so, it is get from the cache instead of recomputing it again. 
 
 ## makeCacheMatrix create a spetial matrix which is really a list containing a function to 
 ## set/get the value of the matrix and set/get its inverse   
